@@ -1,0 +1,123 @@
+// 
+// #row_style{
+//     border:1px solid #97b714;
+//     margin-right:5px;
+//     margin-bottom:5px;
+//     padding:3px;
+//     border-radius:4px;
+//     background-color: #fff;
+// }
+// 
+// #details {
+//     border: 1px solid #97b714;
+//     display: -webkit-inline-box;
+//     padding: 5px 10px 5px 10px;
+//     border-radius: 5px;
+//     background-color: #fff;
+//     margin:5px;
+//     font-weight: 600;
+//     color:#6d8800
+// }
+
+#Details {
+    background: #03a9f4;
+    font-size: 15px;
+    padding: 4px;
+    border: 1px solid #808080;
+    color: #fff;
+    font-weight: 700;
+    margin-top:1px;
+    margin-left:2px;
+
+}
+
+#Details1 {
+    background: #ffffff;
+    font-size: 15px;
+    padding: 4px;
+    border: 1px solid #808080;
+    color: #383131;
+    font-weight: 700;
+    margin-top:1px;
+}
+.table-bordered>tbody>tr>td,
+{
+    border:1px solid #56564f;
+}
+.jumbotron{
+    background-color:rgb(232, 241, 196);
+}
+#printer{
+    color:#333 !important;
+    text-align: center !important;
+    cursor: pointer !important;
+    width: 40px;
+    margin-right: 43px;
+}
+// printer end
+
+#h2_1{
+    font-weight: 700;
+    color: white;
+    text-align:left;
+}
+#h6_1{
+    color:#fff;
+    font-weight:600;
+    text-align:left;
+}
+#div_1{
+    background-color: #97b714;
+    position:relative;
+}
+#div_2{
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+
+// #div_3{
+//     // position:absolute;
+// }
+.footer{
+    color:#fff;
+    padding:50px;
+    background-color: #03a9f4;
+    // background-image: url('../../../assets/background.png');    
+}
+#footer{
+    color:#fff;
+    font-weight:700;
+    text-align: left;
+}
+.boxed{
+    // background-color: #97b714;
+    padding:15px;
+    opacity:07;
+}
+
+
+a{
+    color:#fff;
+    text-decoration: none;
+}
+a:hover{
+    color:#333;
+    cursor: pointer;
+} 
+.nav-tabs>li>#tabs2{
+    color:#000;
+}
+
+
+
+img:hover{
+    cursor: pointer !important;
+}
+
+button{
+    text-decoration: none !important;
+}
+.card {
+    box-shadow: 2px 2px 5px 0px;
+}

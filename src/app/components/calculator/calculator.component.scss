@@ -1,0 +1,40 @@
+
+#container_1{
+    margin-top:160px;  
+}
+#div_1{
+    background-color: #03a9f4;
+}
+#bgImg{
+    height:100vh;
+    background: url('../../../assets/background.png');
+    background-size: cover; 
+}
+#h2_1{
+    
+    color: white;
+    font-weight: 700;
+}
+#h6_1{
+    color:#fff;
+    font-weight:600;
+}
+.boxed{
+    padding: 30px;
+    background-color: rgba(3, 169, 244, 0.8509803921568627);
+    opacity: 0.7;
+}
+form{
+    font-weight: 700;
+    color:#fff;
+}
+button{
+    background-color: #ad4e4ff7;
+    padding:9px;
+    border-radius:6px;
+}
+#time{
+    margin-top: 50px;
+    font-size: medium;
+    color: #fff;
+}
