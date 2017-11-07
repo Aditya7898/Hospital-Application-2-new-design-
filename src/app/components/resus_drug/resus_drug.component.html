@@ -274,7 +274,7 @@
       </div>
     </div>
 
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+    <!-- <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
       <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6" id="Details">
           Other Info
@@ -283,7 +283,7 @@
            NUll
         </div>
       </div>
-    </div>
+    </div> -->
 
   </div>
 </div>
@@ -297,7 +297,7 @@
   <div class="card">
     <table class="table table-bordered">
       <thead>
-        <tr style="background-color:#03a9f4; font-weight:600; color:#fff;">
+        <tr style="background-color:#00bcd4; font-weight:600; color:#fff;">
           <td>Drug / Fluid</td>
           <td>Required dose</td>
           <td>Dose to be given</td>
@@ -569,35 +569,31 @@
   </div>
 </div>
 
-<div>
+<!-- <div>
   <img (click)="print()" src="../../../assets/print-icon.png" id="printer" style="float:right; width:50px;" />
   <br><br>
   <h6 style=" margin-right: -38px;float: right;"><b>Print</b></h6>
   <!-- printer end -->
-</div>
+<!-- </div> --> 
 
-
-<div class="container">
-  <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-    <button class="btn btn-warning"><a routerLink="/home">Previous</a></button>
-  </div>
-
-  <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-    <div class="btn-group">
-      <button class="btn btn-warning"><a routerLink="/home">Add Details</a></button>
-      <button class="btn btn-warning"><a routerLink="/common/resus_drug">Resus Drug</a></button>
-      <button class="btn btn-warning"><a routerLink="/common/intubation">Intibution</a></button>
-      <button class="btn btn-warning"><a routerLink="/common/infusion">Infusion</a></button>
-      <button class="btn btn-warning"><a routerLink="/common/fluid">fluid</a></button>
-      <button class="btn btn-warning"><a routerLink="/common/arrythmias">arrythmias</a></button>
+<nav class="navbar">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li><a routerLink="/home">Previous</a></li>
+        <li><a routerLink="/home">Add Details</a></li>
+        <li><a routerLink="/common/resus_drug">Resus Drug</a></li>
+        <li><a routerLink="/common/intubation">Intibution</a></li>
+        <li><a routerLink="/common/infusion">Infusion</a></li>
+        <li><a routerLink="/common/fluid">fluid</a></li>
+        <li><a routerLink="/common/arrythmias">arrythmias</a></li>
+        <li><a routerLink="/common/intubation">Next</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+          <li style="color:#fff"><a (click)="print()">Print</a></li>
+      </ul>
     </div>
-  </div>
-
-  <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-    <button class="btn btn-warning"><a routerLink="/common/intubation">Next</a></button>
-  </div>
-</div>
-
+  </nav>
+  
 
 
 

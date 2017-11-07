@@ -22,7 +22,7 @@
 //     color:#6d8800
 // }
 #Details {
-    background: #03a9f4;
+    background: #00bcd4;
     font-size: 15px;
     padding: 4px;
     border: 1px solid #808080;
@@ -41,7 +41,27 @@
     color: #383131;
     font-weight: 700;
     margin-top:1px;
+    height: 30px;
 }
+
+// bottom buttons
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #00a5bb !important ;
+    color:#fff  !important; 
+}
+.navbar{
+    background: #00bcd4;
+    margin-bottom:-40px;
+ }
+ ul.nav.navbar-nav>li>a{
+    background: #00bcd4;
+    color:#fff;
+    cursor: pointer;
+    font-weight:700;
+ }
+ // end bottom buttons
+
 .jumbotron{
     background-color:rgb(232, 241, 196);
 }

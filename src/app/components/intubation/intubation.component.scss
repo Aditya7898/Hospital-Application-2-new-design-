@@ -28,7 +28,7 @@
     font-weight: 700;
     margin-top:1px;
     margin-left:2px;
-    background: #03a9f4;
+    background: #00bcd4;
 }
 
 #Details1 {
@@ -39,7 +39,27 @@
     color: #383131;
     font-weight: 700;
     margin-top:1px;
+    height: 30px;
 }
+
+// bottom buttons
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #00a5bb !important ;
+    color:#fff  !important; 
+}
+.navbar{
+    background: #00bcd4;
+ }
+ ul.nav.navbar-nav>li>a{
+    background: #00bcd4;
+    color:#fff;
+    cursor: pointer;
+    font-weight:700;
+ }
+ // end bottom buttons
+
+
 .table-bordered>tbody>tr>td,
 {
     border:1px solid #56564f;

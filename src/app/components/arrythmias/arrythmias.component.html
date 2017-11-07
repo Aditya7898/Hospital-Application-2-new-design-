@@ -349,7 +349,7 @@
       </div>
     </div>
 
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+    <!-- <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
       <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6" id="Details">
           Other Info
@@ -358,7 +358,7 @@
 
         </div>
       </div>
-    </div>
+    </div> -->
 
   </div>
 </div>
@@ -366,9 +366,9 @@
 
 <!-- table -->
 <div class="container-fluid" style="margin-top:20px">
-    <table class="table table-borderd" style="border:1px solid #03a9f4">
+    <table class="table table-borderd" style="border:1px solid #00bcd4">
         <thead>
-          <tr style="background:#03a9f4">
+          <tr style="background:#00bcd4">
             <td>Drug</td>
             <td>Dose</td>
             <td>Dose to Given</td>
@@ -626,6 +626,26 @@
 
 
 
+<!-- buttons -->
+<nav class="navbar" id="navbar1">
+    <div class="container-fluid">
+      <ul id="ul_1" class="nav navbar-nav">
+        <li><a routerLink="/home">Previous</a></li>
+        <li><a routerLink="/home">Add Details</a></li>
+        <li><a routerLink="/common/resus_drug">Resus Drug</a></li>
+        <li><a routerLink="/common/intubation">Intibution</a></li>
+        <li><a routerLink="/common/infusion">Infusion</a></li>
+        <li><a routerLink="/common/fluid">fluid</a></li>
+        <li><a routerLink="/common/arrythmias">arrythmias</a></li>
+        <li><a routerLink="/common/intubation">Next</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+          <li style="color:#fff"><a (click)="print()">Print</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+<!-- end of buttons -->
 
 
 
@@ -634,11 +654,11 @@
 
 
 
-<div class="row">
+<!-- <div class="row">
   <div class="col-lg-1">  <div class="col-lg-1"></div></div>
     <div class="col-lg-10">
     <div class="col-lg-1"></div>
-</div>
+</div> -->
 <!-- <button (click) = "back()">Previous</button> -->
  
 <!-- 
@@ -650,43 +670,25 @@
 </div> -->
 
 
-<div class="container-fluid">
+<!-- <div class="container-fluid">
     <div class="col-lg-4">
 
 </div>
  <div class="col-lg-4"></div>
  <div class="col-lg-4"></div>
-</div>
+</div> -->
 
      
-<div>
+<!-- <div>
   <img (click)="print()" src="../../../assets/print-icon.png" id="printer" style="float:right; width:50px;"
   />
   <br><br>
   <h6 style=" margin-right: -38px;float: right;"><b>Print</b></h6>
   <!-- printer end -->
-</div>
+<!-- </div>
+ --> 
 
 
-
-<!-- buttons -->
-<div class="container">
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-        <button class="btn btn-warning"><a routerLink="/common/fluid">Previous</a></button>
-    </div>
-  
-    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
-        <div class="btn-group">           
-            <button class="btn btn-warning"><a routerLink="/home">Home</a></button>
-            <button class="btn btn-warning"><a routerLink="/common/resus_drug">Resus Drug</a></button>
-            <button class="btn btn-warning"><a routerLink="/common/intubation">Intibution</a></button>
-            <button class="btn btn-warning"><a routerLink="/common/infusion">Infusion</a></button>
-            <button class="btn btn-warning"><a routerLink="/common/fluid">fluid</a></button>
-            <button class="btn btn-warning"><a routerLink="/common/arrythmias">arrythmias</a></button>           
-        </div>
-    </div>
-  </div>
-<!-- end of buttons -->
 
 
 

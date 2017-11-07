@@ -28,8 +28,8 @@ a{
     font-weight: 700;
     margin-top:1px;
 	margin-left:2px;
-	background: #03a9f4;
-
+	background: #00bcd4;
+    
 }
 
 #Details1 {
@@ -39,8 +39,22 @@ a{
     border: 1px solid #808080;
     color: #383131;
     font-weight: 700;
-    margin-top:1px;
+	margin-top:1px;
+	height: 30px;
 }
+
+// bottom buttons
+#navbar1{
+    background: #00bcd4;
+ }
+ ul.nav.navbar-nav>li>a{
+    background: #00bcd4;
+    color:#fff;
+    cursor: pointer;
+    font-weight:700;
+ }
+ // end bottom buttons
+
 .jumbotron{
     background-color:rgb(232, 241, 196);
 }

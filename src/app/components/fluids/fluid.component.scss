@@ -33,7 +33,7 @@ td{
     font-weight: 700;
     margin-top:1px;
     margin-left:2px;
-    background: #03a9f4;
+    background: #00bcd4;
 }
 
 #Details1 {
@@ -44,7 +44,27 @@ td{
     color: #383131;
     font-weight: 700;
     margin-top:1px;
+    height: 30px;
 }
+
+// bottom buttons
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #00a5bb !important ;
+    color:#fff  !important; 
+}
+.navbar{
+    background: #00bcd4;
+    margin-bottom:-40px; 
+ }
+ ul.nav.navbar-nav>li>a{
+    background: #00bcd4;
+    color:#fff;
+    cursor: pointer;
+    font-weight:700;
+ }
+ // end bottom buttons
+
 .jumbotron{
     background-color:rgb(232, 241, 196);
 }
@@ -124,7 +144,7 @@ a:hover{
 #insulin{
      font-weight:600; 
      color:#333;
-     background-color: #03a9f4;
+     background-color: #00bcd4;
      padding: 7px;
      border-radius: 5px;
 }

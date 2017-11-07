@@ -20,7 +20,7 @@
 // }
 
 #Details {
-    background: #03a9f4;
+    background: #00bcd4;
     font-size: 15px;
     padding: 4px;
     border: 1px solid #808080;
@@ -39,7 +39,28 @@
     color: #383131;
     font-weight: 700;
     margin-top:1px;
+    height: 30px;
 }
+
+
+// bottom buttons
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #00a5bb !important ;
+    color:#fff  !important; 
+}
+.navbar{
+   background: #00bcd4;
+}
+ul.nav.navbar-nav>li>a{
+   background: #00bcd4;
+   color:#fff;
+   cursor: pointer;
+   font-weight:700;
+}
+// end bottom buttons
+
+
 .table-bordered>tbody>tr>td,
 {
     border:1px solid #56564f;
@@ -80,9 +101,10 @@
 //     // position:absolute;
 // }
 .footer{
+    
     color:#fff;
     padding:50px;
-    background-color: #03a9f4;
+    background-color: #00bcd4;
     // background-image: url('../../../assets/background.png');    
 }
 #footer{
