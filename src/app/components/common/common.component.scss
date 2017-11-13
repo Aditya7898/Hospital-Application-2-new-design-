@@ -1,35 +1,63 @@
 // header
-.nav-tabs>li>a{
-    padding: 7px;
-    margin-top:54px;
+// .nav-tabs>li>a{
+//     padding: 7px;
+//     margin-top:54px;
+// }
+// .nav {
+//     float: right;
+// }
+.row
+{
+    margin:0;
 }
-.nav {
-    float: right;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-a{
+.nav{
+    margin-top:40px;
+}
+.nav li {
+  display: inline;
+  padding:10px;
+  }
+.nav ul li a{
     color:white;
+    cursor: pointer;
     font-weight:700;
     text-decoration: none;
 }
 a:hover{
     color: #333;
 }
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-    color: #555;
-    cursor: default;
-    background-color: #00bcd4;
-    border: 1px solid #ddd;
-    border-bottom-color: transparent;
+li.active{
+    background:#4F9AF7;
 }
-.nav>li>a:focus, .nav>li>a:hover {
-    text-decoration: none;
-    background-color: #00a5bb !important ;
-    color:#fff  !important; 
-}
-.nav-tabs{
-    cursor: pointer;
-    align-items: right;
-}
+// .nav-tabs>li>a {
+//     margin-right:0;
+//     line-height: 0;
+//     border: 0;
+//     border-radius: 0;
+// }
+// .nav>li.active>a, .nav>li.active>a:focus, .nav>li.active>a:hover {
+//     color: #555;
+//     cursor: default;
+//     background-color: #7baaed;
+//     border: 1px solid #ddd;
+//     border-bottom-color: transparent;
+// }
+// .nav>li>a:focus, .nav>li>a:hover {
+//     text-decoration: none;
+//     background-color: #7baaed!important ;
+//     color:#fff  !important; 
+// }
+// .nav-tabs{
+//     cursor: pointer;
+//     align-items: right;
+//     margin-top: -30px;
+//     margin-right: 260px;
+// }
 #h2_1{
     font-weight: 700;
     color: white;
@@ -46,7 +74,7 @@ a:hover{
     top: -16px;
 }
 #div_1{
-    background-color: #00bcd4;
+    background-color: #7baaed;
     position:relative;
 }
 
@@ -54,17 +82,17 @@ a:hover{
 #time{
     font-size: 14px;
     position:absolute;
-    top:60px;
+    top:50px;
     color:#fff;
     float:right;
-    margin-left:93px;
+    margin-left:81px;
 }
 
 // footer
 .footer{
     color:#fff;
-    padding:50px;
-    background-color: #00bcd4;  
+    padding:10px;
+    background-color: #7baaed;  
     margin-top:-78px !important;  
 }
 #footer{
